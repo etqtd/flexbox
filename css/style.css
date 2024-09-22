@@ -1,0 +1,11 @@
+.container{
+
+    padding: 10px;
+    background-color: brown;
+    color: aliceblue;
+    margin-bottom: 5px;
+}
+
+.items{
+    background-color: rgb(55, 1, 1);
+}
