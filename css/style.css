@@ -6,9 +6,17 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     background: #333;
     color: #fff;
     padding: 1rem 0;
+}
+#up{
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
 }
 
 nav ul {
@@ -23,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 

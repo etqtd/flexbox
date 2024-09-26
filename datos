@@ -57,12 +57,16 @@ Usamos rem para tamaños de fuente y padding que deben ser escalables.
 Usamos px para padding y márgenes que requieren un control preciso.
 -------------------------------------------------------------------
 Usabilidad
-La usabilidad se refiere a la facilidad con la que los usuarios pueden interactuar con un sitio web o una aplicación. Un sitio web usable permite que los usuarios alcancen sus objetivos con un mínimo esfuerzo y máxima eficiencia. Aquí algunos aspectos clave:
+La usabilidad se refiere a la facilidad con la que los usuarios pueden interactuar 
+con un sitio web o una aplicación. Un sitio web usable permite que los usuarios alcancen 
+sus objetivos con un mínimo esfuerzo y máxima eficiencia. Aquí algunos aspectos clave:
 
 Navegación sencilla: Los usuarios deben poder encontrar lo que buscan rápidamente.
 Interfaz intuitiva: El diseño debe ser fácil de entender y usar sin necesidad de una curva de aprendizaje pronunciada.
 Velocidad de carga: Las páginas deben cargar rápidamente para evitar que los usuarios abandonen el sitio1.
 Contenido claro: La información debe estar bien organizada y ser fácil de leer2.
+
+
 Accesibilidad
 La accesibilidad se centra en hacer que los sitios web sean utilizables por todas las personas, independientemente de sus capacidades o discapacidades. Esto incluye:
 
