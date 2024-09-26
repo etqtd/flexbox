@@ -1,23 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Esta es una página de ejemplo.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Juan Pérez">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Página Accesible</title>
     <link rel="stylesheet" href="/css/style.css">
-    <title>FLEXBOX</title>
 </head>
 <body>
-    <section class="container">
-        <article class="items">itemflex</article>
-        <article class="items">itemflex</article>
-        <article class="items">itemflex</article>
-    </section>
+    <header>
+        <nav aria-label="Menú principal">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section class="container">
-        <article class="items">itemflex</article>
-        <article class="items">itemflex</article>
-        <article class="items">itemflex</article>
-    </section>
-    
+    <main>
+        <section id="inicio">
+            <h1>Bienvenidos a Nuestra Página</h1>
+            <p>Esta es una página de ejemplo que demuestra buenas prácticas de usabilidad y accesibilidad.</p>
+        </section>
+
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa comprometida con la accesibilidad web.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Desarrollo Web</li>
+                <li>Consultoría en Accesibilidad</li>
+                <li>Optimización SEO</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form aria-label="Formulario de contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Nuestra Empresa</p>
+    </footer>
 </body>
 </html>
