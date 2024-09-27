@@ -24,6 +24,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -79,3 +80,5 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
+
+

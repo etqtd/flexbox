@@ -1,0 +1,136 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+.titulares, .flex-footer{
+    background-color: rgba(248, 218, 186, 0.89);
+    color: aliceblue;
+    padding: 1rem;
+}
+
+
+
+.flex-redes a{
+    color:  rgba(248, 218, 186, 0.89);
+    text-decoration: none;
+}
+
+.flex-redes svg{
+   width: 30px;
+   border-radius: 10px;
+   box-shadow: inset 10px 10px 5px #e5e5e5;
+   transition: transform 2s;
+}
+
+.flex-redes svg:hover{
+    transform: scale(1.8);
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero-image{
+    min-height: 100vh;
+    background-image: url("/assets/img/pexels-pavel-danilyuk-8112201.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+
+}
+
+.hero-image div{
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 171, 119, 0.75);
+
+}
+
+.hero-image h1{
+    font-size: 5vw;
+   text-shadow: 5px 5px 10px #000000;
+    transition: transform 2s;
+}
+
+.hero-image h1:hover{
+    transform: scale(1.1);
+}
+
+.flex-item-info img{
+max-width: 100%;
+    height: auto;
+}
+
+
+@media (min-width: 1024px){
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu ul{
+        display: flex;
+    }
+
+    .menu li{
+        padding: 1rem;
+    }
+
+    .flex-container-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .flex-item-info{
+        flex: 0 0 30%;
+    }
+
+    .flex-order-1{
+        order: 1;
+    }
+
+    .flex-row-reverse{
+        margin-top: 20px;
+        flex-direction: row-reverse;
+    }
+
+    .flex-footer{
+        color: #000000;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+}

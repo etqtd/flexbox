@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: brown;
+}
+
+.box {
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+    flex-grow: 1;
+    font-size: 30px;
+}
+
+@media(max-width:600px){
+
+    .container{
+        flex-direction: column;
+    }
+
+    .box{
+        font-size: 90px;
+    }
+}
+
+
+@media(min-width:600px){
+
+  body{
+    background-color: chocolate;
+  }
+}
+
+
+
+
+
+
+

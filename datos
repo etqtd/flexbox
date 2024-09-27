@@ -36,11 +36,21 @@ HTML
 Unidades de Medida en CSS
 px (Píxeles)
 Descripción: px es una unidad absoluta que representa un píxel en la pantalla.
-Uso: Es útil cuando necesitas un control preciso sobre el tamaño de los elementos, independientemente del tamaño de la pantalla o la configuración del usuario.
+Uso: Es útil cuando necesitas un control preciso sobre el tamaño de los elementos,
+ independientemente del tamaño de la pantalla o la configuración del usuario.
 
 rem (Root em)
-Descripción: rem es una unidad relativa que se basa en el tamaño de la fuente del elemento raíz (<html>). Si el tamaño de la fuente del elemento raíz es de 16px, entonces 1rem es igual a 16px.
-Uso: Es útil para crear diseños escalables y responsivos, ya que los tamaños se ajustan automáticamente si el tamaño de la fuente raíz cambia.
+Descripción: rem es una unidad relativa que se basa en el tamaño de la fuente del 
+elemento raíz (<html>). Si el tamaño de la fuente del elemento raíz es de 16px,
+ entonces 1rem es igual a 16px.
+Uso: Es útil para crear diseños escalables y responsivos, ya que los tamaños se
+ ajustan automáticamente si el tamaño de la fuente raíz cambia.
+
+
+ vw (Viewport Width):
+Representa un porcentaje del ancho del viewport.
+1vw es igual al 1% del ancho del viewport.
+Ejemplo: Si el viewport tiene un ancho de 1200px, entonces 10vw será igual a 120px.
 ---------------------------------------------------------------------------------
 ¿Cuándo Usar Cada Unidad?
 Usar px
@@ -68,10 +78,14 @@ Contenido claro: La información debe estar bien organizada y ser fácil de leer
 
 
 Accesibilidad
-La accesibilidad se centra en hacer que los sitios web sean utilizables por todas las personas, independientemente de sus capacidades o discapacidades. Esto incluye:
+La accesibilidad se centra en hacer que los sitios web sean utilizables
+ por todas las personas, independientemente de sus capacidades o discapacidades.
+Esto incluye:
 
-Compatibilidad con tecnologías de asistencia: Como lectores de pantalla para personas con discapacidad visual.
-Contraste de colores adecuado: Para que el texto sea legible para personas con problemas de visión.
+Compatibilidad con tecnologías de asistencia: 
+Como lectores de pantalla para personas con discapacidad visual.
+Contraste de colores adecuado: Para que el texto sea legible para personas
+con problemas de visión.
 Textos alternativos para imágenes: Para que las imágenes sean comprensibles a través de descripciones textuales2.
 Navegación por teclado: Para personas que no pueden usar un ratón3.
 Importancia de ambos conceptos
